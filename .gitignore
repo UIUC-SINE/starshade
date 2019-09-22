@@ -1,0 +1,14 @@
+**/*.lprof
+**/*.pyc
+**/*.pdf
+**/*.jpg
+**/*.JPG
+python/**/*.png
+octave/**/*.png
+**/octave-workspace
+**/*.mat
+**/*.txt
+**/*.mp4
+python/build
+python/dist
+**/*.egg-info/
