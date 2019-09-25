@@ -1,7 +1,7 @@
 # Ulas Kamaci - 2019-9-22
 # script for simulation of a starshade + lens system.
-# object plane is P0, lens plane is P1, image plane is P2.
-# P0-->P1 is Fraunhofer approximation, P1-->P2 is Fresnel approximation
+# object plane is P0, starshade plane is P1, lens plane is P2, image plane is P3.
+# P0-->P1 is Fraunhofer approximation, P1-->P2 and P2-->P3 are Fresnel approximation
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -11,7 +11,7 @@ distance_object = 3e17 # distance from the object to the lens
 distance_starshade = 30e6 # distance from the starshade to the lens
 focal_length = 30 # focal length of the lens
 diameter_lens = 2.4 # diameter of the lens (used in pupil func.)
-diameter_starshade = 50 # diameter of the starshade (used in pupil func.)
+diameter_starshade = 50 # diameter of the starshade
 wavelength = 633e-9
 psf_width = 1001
 nyquist_interval = wavelength * focal_length / diameter_lens
