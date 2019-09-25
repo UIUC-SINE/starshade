@@ -1,0 +1,4 @@
+Hi, wasn't sure of the best way to leave notes here.
+
+1) Star:Planet brightness ratio approx 1:10e-10
+2) https://poppy-optics.readthedocs.io/ very nice python optics library with many speedups for fresnel propgation/fft
